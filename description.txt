@@ -22,9 +22,11 @@ Enter your choice:
 * If the list is not empty, then all the list element should be displayed inside square brackets separated by a space.
 * For example, [1 2 3 4 5] . 
 
-* If the user enters 'A' or 'a', then you should prompt the user for an integer to add to the list which you will add to the list and then display it was added. 
-* For example, if the user enters 5, you should display "5 added".
+* If the user enters 'A' or 'a', then you should prompt the user for integer(s) to add to the list which you will add to the list and then display "Added all of the integers". 
 * Duplicate list entries are OK.
+
+* If the user enters 'C' or 'c', you should clear the list of numbers you added and display "The list is cleared".
+* If the list is empty, you should display, "The list is already empty".
 
 * If the user enters 'M' or 'm', you should calculate the mean or average of the elements in the list and display it.
 * If the list is empty, you should display, "Unable to calculate the mean - no data" .
