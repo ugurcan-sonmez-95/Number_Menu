@@ -74,7 +74,7 @@ char selection() {
     char choice {};
     std::cout << "\nEnter your choice: ";
     std::cin >> choice;
-    return toupper(choice);
+    return std::toupper(choice);
 }
 
 void print_format(const std::vector<int> &nums) {
@@ -95,7 +95,7 @@ void add_nums(std::vector<int> &nums) {
     std::string numstr;
     std::cout << "\nEnter integer(s): ";
     std::cin.ignore();
-    getline(std::cin, numstr);
+    std::getline(std::cin, numstr);
     std::istringstream iss(numstr);
     int number {};
     while (iss >> number)
